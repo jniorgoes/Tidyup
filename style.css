@@ -1,0 +1,84 @@
+.button-container {
+    text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 5px px;
+    background-color: rgb(154, 19, 207);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: purple;
+    
+  }
+
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 5px;
+    height: 0.7cm;
+  }
+
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .container {
+    display: flex;
+}
+
+.left-box {
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(156, 7, 156);
+}
+
+.right-box {
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(156, 7, 156);
+}
+.estrelas input[type=radio] {
+  display: none;
+  
+  
+  ;
+}
+.estrelas label i.fa{
+  font-size: 2.5em;
+  
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+  
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+.stars {
+  font-size: 10px;
+  line-height: 10px;
+}
